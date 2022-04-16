@@ -1,6 +1,6 @@
 # BackupAzureTableStorageLocally
 
-A simple console application written in .NET 5.0 to backup tables from within a single Azure storage account and store them locally.
+A simple console application written in DOTNET 6.0 to backup tables from within a single Azure storage account and store them locally.
 
 This project uses [TheByteStuff's AzureTableUtilites Nuget Package](https://www.nuget.org/packages/TheByteStuff.AzureTableUtilities/)
 
