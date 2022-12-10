@@ -6,13 +6,15 @@ This project uses [TheByteStuff's AzureTableUtilites Nuget Package](https://www.
 
 ## Usage
 
-Run the BackupAzureTableStorageLocally executable using the example below.
+Run the BackupAzureTableStorageLocally utility using the example below.
 
 ```shell
-BackupAzureTableStorageLocally.exe "{A1}" "{A2}" "{A3}"
+cd source
+dotnet build
+dotnet run "{1}" "{2}" "{3}"
 
 # WHERE PARAMETERS EQUAL
-# A1: Azure Storage Connection String
-# A2: Local Backup Directory
-# A3: Table Names, Delimited by pipes ('|')
+# 1: Azure Storage Connection String
+# 2: Local Backup Directory
+# 3: Table Names, Delimited by pipes ('|')
 ```
