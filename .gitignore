@@ -35,4 +35,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 
+# Project specific files
 .vs
+run.sh
